@@ -51,6 +51,7 @@ function gotresult(error,results)
         canvas.background("white");
         score=score+1;
         document.getElementById("score").innerHTML="Score :"+score;
+        timer=0;
     }
 
     
